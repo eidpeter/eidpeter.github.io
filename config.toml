@@ -4,27 +4,38 @@ title = "Peter Eid"
 theme="archie"
 copyright = "© Peter Eid"
 
-pygmentsstyle = "monokai"
+pygmentsstyle = "github-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
 	mode="toggle"
-	useCDN=false
+	useCDN=true
 	subtitle = "A blog about nothing, anything, and everything."
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
+	mathjax = true
+	katex = true
 	favicon = "🎄"
+
+[markup]
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+      unsafe = true
+
+
+[[params.social]]
+name = "Mail"
+icon = "mail"
+url = "mailto://peter.m.eid@outlook.com"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://linkedin.com/in/peter-m-eid"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/eidpeter"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/eidpeter/"
 
 [[menu.main]]
 name = "Home"
@@ -37,11 +48,6 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 3
