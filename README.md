@@ -1,0 +1,4 @@
+- [ ] Add phrases, links to companies/schools in About
+- [ ] Colors (in both light and dark modes)
+- [ ] SEO? (config)
+- [ ] Add remaining info

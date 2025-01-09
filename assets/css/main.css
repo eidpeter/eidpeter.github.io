@@ -66,17 +66,8 @@ a:hover {
 }
 
 ul {
-  list-style: none;
-  padding-left: 2ch;
-}
-
-ul li {
-  text-indent: -2ch;
-}
-
-ul>li::before {
-  content: '- ';
-  /* font-weight: bold; */
+  list-style: disc;
+  /* padding-left: 3ch; */
 }
 
 /* Images */
@@ -397,7 +388,6 @@ table {
 table th {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
-  font-size: large;
 }
 
 table td {
