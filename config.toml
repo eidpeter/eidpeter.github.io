@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "A blog about nothing, anything, and everything."
 	mathjax = true
 	katex = true
-	favicon = "🎄"
+	favicon = "❄️"
 
 [markup]
   [markup.goldmark]
