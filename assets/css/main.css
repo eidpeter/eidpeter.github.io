@@ -2,14 +2,15 @@
 :root {
   /* --maincolor: red; */
   --maincolor: teal;
-  --bordercl: rebeccapurple;
+  /* --bordercl: rebeccapurple; */
+  --bordercl: #777;
   --callouctcolor: dodgerblue;
   --hovercolor: teal;
   --darkMaincolor: #50fa7b;
 }
 
 html {
-  color: #232333;
+  color: #131313;
   /* font-family: 'Roboto Mono', monospace; */
   /* font-family: 'Merriweather', monospace; */
   /* font-family: 'Poppins', monospace; */

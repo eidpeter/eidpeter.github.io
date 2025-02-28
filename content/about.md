@@ -22,10 +22,10 @@ description: About me
     }
 </style>
 
-I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
+I am Peter Eid, a Lebanese Data Scientist based in Paris, France. I studied engineering, computer science, and data science at [Mines Saint-Etienne](https://www.mines-stetienne.fr/en) and the [Lebanese University - Faculty of Engineering](http://www.ulfg.ul.edu.lb/).
 
----
----
+In my free time, I like exploring and creating generative art, especially when it’s driven by mathematical or scientific concepts.
+
 ---
 
 
@@ -88,9 +88,9 @@ I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 ## Education
 <!-- ## 🎓 Education -->
 
-| [Mines Saint-Etienne](https://www.mines-stetienne.fr/) | Saint-Etienne, France |
-| :----------------------------------------------------- | --------------------: |
-| Engineer's Degree                                      | Sep. 2022 - Sep. 2024 |
+| [Mines Saint-Etienne](https://www.mines-stetienne.fr/en) | Saint-Etienne, France |
+| :------------------------------------------------------- | --------------------: |
+| Engineer's Degree                                        | Sep. 2022 - Sep. 2024 |
 
 - Major in Data Science
 - Minor in Image Processing & Pattern Recognition
@@ -109,15 +109,44 @@ I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 
 
 
-## Projects
+<!-- ## Projects -->
 <!-- ## 💻 Projects -->
-
-- test1
-- [More projects]({{< ref "/projects" >}} "Projects")
 
 <!-- ## 🪄 Skills -->
 ## Skills
 
+#### Programming and Tools
+
+- Python (Pandas, Matplotlib, Seaborn, Plotly, Scikit-learn, Keras, PyTorch, OpenCV, Scikit-image, FastAPI)
+- R
+- SQL (favorite flavor: MySQL)
+- C# (.NET)
+- Power BI, Tableau
+- Git
+- Docker
+- Linux, Bash
+
+#### Data Science, Machine Learning and AI
+
+- Regression Analysis
+- Clustering Analysis
+- Time Series Analysis
+- Dimensionality Reduction
+- Decision Trees
+- Random Forests
+- SVM
+- Gradient Boosting
+- Neural Networks
+- Computer Vision and Image Processing
+
+<br>
+
+- ...
+
+<!-- _(I wouldn't say I'm an expert in any of the skills mentioned, but I've got a solid foundation that I can build on)_ -->
+
+
+<!-- ## Hobbies and Interests -->
 
 
 <!-- ## 🌐 Languages -->
@@ -126,3 +155,4 @@ I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 - English
 - French
 - Lebanese (Arabic)
+- Sarcasm (Often mistaken for a native speaker, but it's actually my second language)

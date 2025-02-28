@@ -1,22 +1,22 @@
 body {
   color: white;
-  background-color: #202124;
+  background-color: #131313;
 }
 
 ::-moz-selection {
-  background: blue;
-  color: #fff;
+  background: var(--darkMaincolor);
+  color: #000;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
-  color: #fff;
+  background: var(--darkMaincolor);
+  color: #000;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted #777;
 }
 
 code {
@@ -34,7 +34,7 @@ pre {
 }
 
 blockquote {
-  border-color: blue;
+  border-color: #777;
 }
 
 h1,
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ddd;
+  color: #fff;
 }
 
 /* h1::before {
@@ -115,11 +115,15 @@ a:hover {
 
 .header nav,
 .footer {
-  border-color: #333;
+  border-color: #777;
+}
+
+footer {
+  border-color: #777;
 }
 
 .highlight {
-  background-color: #333;
+  background-color: #777;
 }
 
 .soc:hover {
