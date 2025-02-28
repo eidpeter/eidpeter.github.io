@@ -24,7 +24,13 @@ description: About me
 
 I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 
-## 💼 Professional Experience
+---
+---
+---
+
+
+<!-- ## 💼 Professional Experience -->
+## Professional Experience
 
 | Data Scientist Intern | Mar. 2024 - Sep. 2024 |
 | :-------------------- | --------------------: |
@@ -79,7 +85,8 @@ I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 
 
 
-## 🎓 Education
+## Education
+<!-- ## 🎓 Education -->
 
 | [Mines Saint-Etienne](https://www.mines-stetienne.fr/) | Saint-Etienne, France |
 | :----------------------------------------------------- | --------------------: |
@@ -102,17 +109,20 @@ I am Peter Eid, a Lebanese Data Scientist based in Paris, France.
 
 
 
-## 💻 Projects
+## Projects
+<!-- ## 💻 Projects -->
+
+- test1
+- [More projects]({{< ref "/projects" >}} "Projects")
+
+<!-- ## 🪄 Skills -->
+## Skills
 
 
 
-## 🪄 Skills
-
-
-
-## 🌐 Languages
+<!-- ## 🌐 Languages -->
+## Languages
 
 - English
 - French
-- Arabic
-- Italian
+- Lebanese (Arabic)

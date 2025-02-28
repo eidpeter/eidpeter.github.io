@@ -1,8 +1,8 @@
 ---
-title: New and Noteworthyless
+title: New and Noteworthy Project
 description: What will this blog post do?
-date: 2024-02-28
-draft: false
+date: 2024-09-30
+draft: true
 tags: [tag, lol, new]
 ---
 

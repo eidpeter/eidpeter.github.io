@@ -195,6 +195,8 @@ h6::before {
 .meta {
   color: #999;
   letter-spacing: -0.5px;
+  margin-top: -0.4em;
+  margin-bottom: 0.6em;
 }
 
 .toc {
@@ -394,4 +396,24 @@ table th {
 table td {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+.type-label {
+  background-color: #f3f3f3;
+  color: #333;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.page-tag {
+  margin: 0 0.1em;
+}
+
+.page-tag.current {
+  font-weight: bold;
 }

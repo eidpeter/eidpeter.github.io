@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+
+			<main class="list">
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
+					{{- end -}}
+				</div>
+				<div>
+					<h2 class="page-title">Recently Added</h2>
+				</div>
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $limitedPages := first 3 (where $pages "Params.hidden" "ne" true) }}
+				{{ range $limitedPages }}
+				<section class="list-item">
+					<h3 class="title">
+						<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+					</h3>
+					<div class="meta">
+						<span class="type-label">
+							{{ if eq .Type "posts" }}Article{{ else if eq .Type "projects" }}Project{{ else if eq .Type "frames" }}Frames{{ else }}{{ .Type |
+							title }}{{ end }}
+						</span>
+						<time>{{ dateFormat ":date_medium" .Date }}</time>
+						{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
+					</div>
+					{{ template "partials/pagedescription.html" . }}
+					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+				</section>
+				{{ end }}
+
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+
+	</body>
+
+</html>

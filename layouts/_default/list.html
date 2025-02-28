@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ if isset .Data "Term" }}
+<h1>Entries tagged - "{{ .Data.Term }}"</h1>
+{{ else }}
+<h1 class="page-title">{{ .Title }}</h1>
+{{ end }}
+
+{{ $pages := .Data.Pages }}
+{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+{{ range $paginator.Pages }}
+	<section class="list-item">
+		<h3 class="title">
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+		</h3>
+		<div class="meta">
+			<time>{{ dateFormat ":date_medium" .Date }}</time>
+			{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
+		</div>
+		{{ template "partials/pagedescription.html" . }}
+		<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+	</section>
+	{{- end -}}
+	{{ template "partials/paginator.html" . }}
+{{- end -}}

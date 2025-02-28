@@ -4,9 +4,13 @@ title = "Peter Eid"
 theme="archie"
 copyright = "© Peter Eid"
 
+enableRobotsTXT = true
+
 pygmentsstyle = "github-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+paginate=5
 
 [params]
 	mode="toggle"
@@ -14,6 +18,7 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "A blog about nothing, anything, and everything."
 	mathjax = true
 	katex = true
+	mainSections = ["posts", "projects", "frames"]
 	favicon = "❄️"
 
 [markup]
@@ -48,6 +53,16 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 3
+
+[[menu.main]]
+name = "Frames"
+url = "/frames"
+weight = 3
+
+[[menu.main]]
 name = "About"
 url = "/about"
-weight = 3
+weight = 4
