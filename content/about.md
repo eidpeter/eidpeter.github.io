@@ -24,7 +24,7 @@ description: About me
 
 I am Peter Eid, a Lebanese Data Scientist based in Paris, France. I studied engineering, computer science, and data science at [Mines Saint-Etienne](https://www.mines-stetienne.fr/en) and the [Lebanese University - Faculty of Engineering](http://www.ulfg.ul.edu.lb/).
 
-In my free time, I like exploring and creating generative art, especially when it’s driven by mathematical or scientific concepts.
+In my free time, I like exploring and creating generative art, especially when it's driven by mathematical or scientific concepts.
 
 ---
 

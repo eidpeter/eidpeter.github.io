@@ -15,7 +15,7 @@ paginate=5
 [params]
 	mode="toggle"
 	useCDN=true
-	subtitle = "A blog about nothing, anything, and everything."
+	subtitle = "Hello! I'm Peter Eid, a Lebanese Data Scientist based in Paris, France.<br><br> Welcome to my personal website, where you'll find a blog (where I share random stuff I find interesting, tech-related or not), some of my generative art and creative coding experiments, my data and software engineering portfolio, as well as my detailed profile.<br><br> Feel free to reach out! Worst case, we have an awkward conversation. (I'm really good at those)"
 	mathjax = true
 	katex = true
 	mainSections = ["posts", "projects", "frames"]
