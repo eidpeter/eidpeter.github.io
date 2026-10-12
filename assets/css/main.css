@@ -11,6 +11,7 @@
 
 html {
   color: #131313;
+  scrollbar-gutter: stable;
   /* font-family: 'Roboto Mono', monospace; */
   /* font-family: 'Merriweather', monospace; */
   /* font-family: 'Poppins', monospace; */

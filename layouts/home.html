@@ -31,7 +31,7 @@
 						<time>{{ dateFormat ":date_medium" .Date }}</time>
 						{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
 					</div>
-					{{ template "partials/pagedescription.html" . }}
+					{{ partial "pagedescription.html" . }}
 					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
 				</section>
 				{{ end }}

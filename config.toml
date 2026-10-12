@@ -10,12 +10,12 @@ pygmentsstyle = "github-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=5
+pagination.pagerSize=5
 
 [params]
 	mode="toggle"
 	useCDN=true
-	subtitle = "Hello! I'm Peter Eid, a Lebanese Data Scientist based in Paris, France.<br><br> Welcome to my personal website, where you'll find a blog (where I share random stuff I find interesting, tech-related or not), some of my generative art and creative coding experiments, my data and software engineering portfolio, as well as my detailed profile.<br><br> Feel free to reach out!"
+	subtitle = "Hello! I'm Peter Eid, a Lebanese Data Scientist based in Paris, France.<br><br> Welcome to my personal website, where you'll find a blog (where I share random stuff I find interesting, tech-related or not), some of my [generative art](https://en.wikipedia.org/wiki/Generative_art) and creative coding experiments, my data and software engineering portfolio, as well as my detailed profile.<br><br> Feel free to reach out!"
 	mathjax = true
 	katex = true
 	mainSections = ["posts", "projects", "frames"]
@@ -28,19 +28,14 @@ paginate=5
 
 
 [[params.social]]
-name = "Mail"
-icon = "mail"
-url = "mailto://peter.m.eid@outlook.com"
+name = "GitHub"
+icon = "github"
+url = "https://github.com/eidpeter"
 
 [[params.social]]
 name = "Linkedin"
 icon = "linkedin"
 url = "https://linkedin.com/in/peter-m-eid"
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/eidpeter"
 
 [[menu.main]]
 name = "Home"
